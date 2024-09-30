@@ -1,0 +1,85 @@
+.encabezado{
+    position: relative;
+    display: flex;
+
+}
+
+.encabezado img{
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.encabezado .hands{
+    width: 100%;
+    top: 83%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.encabezado .vector{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 600px;
+    justify-content: center;
+    object-fit: contain
+}
+
+
+.encabezado .title{
+    text-align: center;
+}
+
+.encabezado .title h1{
+    font-family: 'Southland';
+    font-size: 7.5rem;
+    padding: 0;
+    color: var(--color-primary);
+    margin: 0;
+    
+}
+
+.encabezado .title h2{
+    font-family: 'Southland';
+    font-size: 4.5rem;
+    color: var(--color-primary);
+}
+
+/*== Media Queries (dispositivos medianos) ==*/
+@media screen and (max-width: 1024px) {
+    .encabezado .hands{
+        top: 45%;
+    }
+    .encabezado .vector{
+        top: 380px;
+    }
+
+}
+
+
+/*== Media Queries (dispositivos pequeños) ==*/
+@media screen and (max-width: 600px) {
+
+    .encabezado .title h1{
+        font-size: 4.5rem;
+    }
+    
+    .encabezado .title h2{
+        font-size: 4.5rem;
+        z-index: 2;
+    }
+
+    .encabezado img{
+        top: 0;
+    }
+
+    .encabezado .hands{
+        top: 43%;
+    }
+    .encabezado .vector{
+        top: 200px;
+    }
+
+}

@@ -1,0 +1,117 @@
+.historia{
+    position: relative;
+}
+.historia .section-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.historia .section-title h2{
+    font-family: 'Southland';
+    color: var(--color-secundary-variant);
+    font-size: 7rem;
+
+}
+
+.historia .separador{
+    width: 800px;
+}
+
+.historia .separador img{
+    transform: rotate(180deg);
+}
+
+.historia .container-info{
+    display: flex;
+    gap: 3rem;
+}
+
+.historia .historia-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.historia .historia-info .encuentro{
+    margin-bottom: 90px;
+}
+
+.historia .historia-info .propuesta{
+    margin-bottom: 90px;
+}
+
+.historia .historia-info img{
+    width: 30%;
+}
+
+.historia-info h4 {
+    font-family: 'Southland';
+    color: var( --color-primary-variant);
+    font-size: 4.3rem;
+}
+
+.historia-info .propuesta p{
+    margin-left: 10px;
+}
+
+.historia .linea-vertical{
+    position: absolute;
+    left: 50%;
+    top: 842px;
+    height: 630px;
+    width: 3.6px;
+    background-color: #F5E7D2;
+}
+
+/*== Media Queries (dispositivos medianos) ==*/
+@media screen and (max-width: 1024px) {
+
+
+
+    .historia .historia-info img {
+        width: 36%;
+        object-fit: contain;
+    }
+
+
+
+
+
+}
+
+
+/*== Media Queries (dispositivos pequeños) ==*/
+@media screen and (max-width: 600px) {
+    .historia .section-title {
+        display: block;
+    }
+
+    .historia .section-title h2{
+        text-align: center;
+        font-size: 5.5rem;
+    }
+    .historia .separador img{
+        display: none;
+    }
+
+    .historia .historia-info{
+        flex-direction: column;
+    }
+    .historia img{
+        display: none;
+    }
+
+    .historia .linea-vertical{
+        display: none;
+    }
+    .historia .historia-info .encuentro {
+        margin-bottom: 10px;
+    }
+
+    .historia .historia-info .propuesta {
+        margin-bottom: 10px;
+    }
+    
+}

@@ -1,0 +1,286 @@
+
+.esperamos{
+    width: 100%;
+}
+.esperamos .section-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.esperamos .section-title h2{
+    font-family: 'Southland';
+    color: var(--color-secundary-variant);
+    font-size: 7rem;
+
+}
+
+.esperamos .separador img{
+    width: 850px;
+}
+
+
+
+
+.esperamos .container-info{
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    justify-content: center;
+
+}
+
+.date{
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.date .info-date{
+    border: 2px solid var(--color-secundary-variant);
+    border-radius: 100% 100% 0 0;
+    width: 350px;
+    height: 340px;
+    margin-bottom: 20px;
+}
+.date .info-date p{
+    text-align: center;
+    padding: 20px;
+}
+
+.date .info-date .font {
+    font-family: 'Southland';
+    color: var(--color-secundary-variant);
+    font-size: 6rem;
+    padding: 0;
+    
+}
+
+.date .info-date .font1 {
+    font-family: 'Southland';
+    color: var(--color-secundary-variant);
+    font-size: 5rem;
+    padding: 0;
+    position: absolute;
+    top: 10%;
+    left: 11%;
+}
+
+.date .img-date img{
+     border-radius: 0 0 100% 100%;
+     width: 350px;
+     height: 340px;
+}
+
+
+.ceremony .img-ceremony img{
+    border-radius: 100% 100% 0 0;
+    object-position: left;
+    width: 350px;
+    height: 340px;
+    margin-bottom: 20px;
+
+}
+
+.ceremony .info_ceremony{
+    border: 2px solid var(--color-secundary-variant);
+    border-radius: 0 0 100% 100%;
+    width: 350px;
+    height: 340px;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+
+.ceremony .info_ceremony .font {
+    font-family: 'Southland';
+    color: var(--color-secundary-variant);
+    font-size: 6rem;
+    padding: 0;
+
+}
+.ceremony .info_ceremony h4{
+    text-align: center;
+}
+
+.ceremony .info_ceremony p {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+.ceremony .info_ceremony span{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.ceremony .info_ceremony .icon {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+}
+
+.ceremony .info_ceremony .icon img{
+    width: 10%;
+}
+.ceremony .info_ceremony .icon h3{
+    font-family: 'Southland';
+    color: var(--color-primary-variant);
+    font-size: 2rem;
+
+}
+
+.reception{
+    position: relative;
+}
+
+.reception .info-reception{
+    border: 2px solid var(--color-secundary-variant);
+    border-radius: 100% 100% 0 0;
+    width: 350px;
+    height: 340px;
+    margin-bottom: 20px;
+    
+
+}
+
+.reception .info-reception h4 {
+    text-align: center;
+    font-family: 'Southland';
+    color: var(--color-secundary-variant);
+    font-size: 6rem;
+    padding: 0;
+}
+
+
+.reception .info-reception p{
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 18%;
+    left: 2%;
+}
+
+.reception .info-reception span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.reception .info-reception .icon {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 37%;
+}
+
+.reception .info-reception .icon img{
+    width: 10%;
+}
+
+.reception .info-reception .icon h3{
+    font-family: 'Southland';
+    color: var(--color-primary-variant);
+    font-size: 2rem;
+}
+
+.reception .img-reception img{
+    border-radius: 0 0 100% 100%;
+    width: 350px;
+    height: 340px;
+
+}
+
+/*== Media Queries (dispositivos medianos) ==*/
+@media screen and (max-width: 1024px) {
+    .esperamos .section-title h2{
+        font-size: 6rem;
+    }
+    .esperamos .separador img{
+        width: 100%;
+        
+    }
+
+
+
+
+}
+
+
+/*== Media Queries (dispositivos pequeños) ==*/
+@media screen and (max-width: 600px) {
+    .esperamos .section-title {
+        display: block;
+    }
+
+    .esperamos .section-title h2{
+        text-align: center;
+    }
+    
+
+    .esperamos .separador img{
+        display: none;
+    }
+
+    .esperamos .container-info{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .date{
+        margin-bottom: 50px;
+    }
+
+    .date .info-date {
+        width: 100%;
+    }
+
+    .date .img-date img{
+        width: 100%;
+
+   }
+
+   .date .info-date .font1{
+    left: 15%;
+   }
+
+   .ceremony{
+    margin-bottom: 50px;
+   }
+
+   .ceremony .img-ceremony img{
+    width: 100%;
+    }
+
+    .ceremony .info_ceremony{
+        width: 100%;
+        height: 340px;
+    }
+
+    .ceremony .info_ceremony .icon h3{
+        font-size: 2.8rem;
+    }
+
+    .reception .info-reception{
+        width: 100%;
+    }
+
+    .reception .info-reception .icon h3{
+        font-size: 2.8rem;
+    }
+
+    .reception .img-reception img{
+        width: 100%;
+    
+    }
+
+}
+
+

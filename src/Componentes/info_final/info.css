@@ -1,0 +1,281 @@
+.more-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    
+    
+}
+
+.more-info  h2 {
+    font-family: 'Southland';
+    color: var( --color-secundary-variant);
+    font-size: 5rem;
+    text-align: center;
+} 
+
+.info-final {
+    width: 100%;
+}
+
+.info-final .ninos{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+ 
+
+}
+
+.info-final .ninos img{
+    width: 174px;
+    height: 170px;
+    border-radius: 50% 50% 0 0;
+}
+
+.info-ninos .title{
+    font-family: 'Southland';
+    color: var( --color-secundary-variant);
+    font-size: 3.5rem;
+    
+}
+
+
+
+.info-ninos  .parrafo{
+    margin-bottom: 20px;
+
+}
+
+.info-final .estacionamiento{
+    display: flex;
+    gap: 1rem;
+}
+
+.info-final .estacionamiento img{
+    width: 84%;
+    height: 185px;
+    border-radius: 0 0 50% 50%;
+}
+
+.info-estacionamiento .title{
+    font-family: 'Southland';
+    color: var( --color-secundary-variant);
+    font-size: 3.5rem;
+    border-top: 2px solid var(--color-secundary-variant);
+    
+}
+
+.info-estacionamiento .parrafo{
+    margin-bottom: 60px;
+   
+}
+
+
+
+.info-estacionamiento .title p{
+    text-align: justify;
+}
+
+
+.info-final .recepcion{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+ 
+    border-bottom: 3px solid var( --color-secundary-variant);
+
+}
+
+.info-final .recepcion img{
+    width: 420px;
+    height: 240px;
+    border-radius: 47% 47% 47% 47%;
+}
+
+.info-recepcion .title{
+    font-family: 'Southland';
+    color: var( --color-secundary-variant);
+    font-size: 3.5rem;
+    border-top: 2px solid var( --color-secundary-variant);
+    
+}
+
+.info-recepcion .title p{
+    text-align: justify;
+ 
+}
+
+.info-recepcion .parrafo{
+    margin-bottom: 60px;
+   
+}
+
+
+
+.formulario{
+    width: 100%;
+}
+.formulario .info-formulario {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.formulario .info-formulario .parrafo1{
+    margin-bottom: 10px;
+    
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: end;
+}
+
+input, textarea{
+        width: 100%;
+        padding: 1.5rem;
+        border-radius: 2rem;
+        background: transparent;
+        border: 2px solid #9C936B;
+        resize: none;
+        color: var(--color-white);
+}
+
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    color: var();
+}
+
+/* .btn-primary {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-secundary-variant);
+    width: 100px;
+    background: #FAEBD7;
+    padding: 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.btn-primary:hover{
+    background: transparent;
+    border: 2px solid #9C936B;
+} */
+
+.btn-primary {
+  background: linear-gradient(to bottom right, #C7916B, #FAEBD7);
+  border: 0;
+  border-radius: 2rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.btn-primary:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(142, 77, 89, 0.5), .125rem .125rem 1rem rgba(242, 164, 116, 0.5);
+}
+
+.btn-primary:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(142, 77, 89, 0.5), .125rem .125rem 1rem rgba(242, 164, 116, 0.5);
+}
+
+/*== Media Queries (dispositivos medianos) ==*/
+@media screen and (max-width: 1024px) {
+
+
+
+
+}
+
+
+/*== Media Queries (dispositivos pequeños) ==*/
+@media screen and (max-width: 600px) {
+
+    .more-info {
+    flex-direction: column;
+    }
+
+    .more-info  h2 {
+        font-size: 4.5rem;
+    } 
+
+    .info-final .ninos{
+        flex-direction: column;
+    }
+
+    .info-final .ninos img{
+        width: 100%;
+        height: 400PX;
+    }
+
+    .info-ninos .title{
+        font-size: 4.5rem;
+        text-align: center;
+        
+    }
+
+    .info-ninos .parrafo {
+        text-align: justify;
+    }
+
+    .info-final .estacionamiento{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .estacionamiento{
+        margin-bottom: 50px;
+    }
+
+    .info-estacionamiento .title{
+        font-size: 4.5rem;
+        text-align: center;
+    }
+
+    .info-estacionamiento .parrafo{
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .info-final .estacionamiento img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .info-final .recepcion{
+        flex-direction: column-reverse;
+    }
+
+    .info-recepcion .title{
+        font-size: 4.5rem;
+        text-align: center;
+    }
+
+    .info-recepcion .parrafo{
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .info-final .recepcion img {
+        width: 100%;
+        height: 350px;
+        border-radius: 50% 50% 0 0;
+        margin-bottom: 50px;
+
+    }
+    
+}
