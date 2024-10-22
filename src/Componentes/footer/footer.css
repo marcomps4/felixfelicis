@@ -12,6 +12,13 @@
 
 /*== Media Queries (dispositivos medianos) ==*/
 @media screen and (max-width: 1024px) {
+    .footer-img {
+        position: initial;
+    }
+    .footer-img img{
+        position: relative;
+        top: 0;
+    }
 
 
 

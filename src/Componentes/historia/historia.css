@@ -65,6 +65,10 @@
     background-color: #F5E7D2;
 }
 
+.historia .corazon-mobile{
+    display: none;
+}
+
 /*== Media Queries (dispositivos medianos) ==*/
 @media screen and (max-width: 1024px) {
 
@@ -73,6 +77,28 @@
     .historia .historia-info img {
         width: 36%;
         object-fit: contain;
+    }
+
+    .historia .separador{
+        width: 470px;
+    }
+
+    .historia .section-title h2{
+        font-size: 6rem;
+    
+    }
+
+    .historia .historia-info img{
+        width: 30%;
+    }
+
+    .historia-info h4 {
+
+        font-size: 3.2rem;
+    }
+
+    .historia .linea-vertical{
+        display: none;
     }
 
 
@@ -84,6 +110,7 @@
 
 /*== Media Queries (dispositivos pequeños) ==*/
 @media screen and (max-width: 600px) {
+
     .historia .section-title {
         display: block;
     }
@@ -112,6 +139,15 @@
 
     .historia .historia-info .propuesta {
         margin-bottom: 10px;
+    }
+
+    .historia .historia-info .corazon-mobile{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        opacity: 0.1;
+      
+        
     }
     
 }

@@ -37,20 +37,24 @@ const TeEsperamos = () =>{
                         <div className='info_ceremony'>
                             <h4 className='font'>Ceremonia</h4>
                             
-                            <p><span>17:00 <br/> Capilla San Felipe Neri</span><br/> Cra. 90 #149-7, Bogotá Dentro de la Fundación FUMDIR - Seminario EMAÚS de Suba</p>
+                            <p><span>16:30 <br/> Capilla San Felipe Neri</span><br/> Cra. 90 #149-7, Bogotá Dentro de la Fundación FUMDIR - Seminario EMAÚS de Suba</p>
                             <div className='icon'>
+                                <a href='https://maps.app.goo.gl/sLPngzvwShXTc8EZ6' target='_blank' >
                                 <img src={location} alt="icono de localización con forma de corazón" />
                                 <h3>¿Cómo llegar?</h3>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className='reception'>
                         <div className='info-reception'>
                             <h4>Recepción</h4>
-                            <p><span>19:00<br/>Hacienda Ana María Sierra</span> <br/> Cra. 90 # 159A-48, Casa 1 Suba, Bogotá</p>
+                            <p><span>18:30<br/>Hacienda Ana María Sierra</span> <br/> Cra. 90 # 159A-48, Casa 1 Suba, Bogotá</p>
                             <div className='icon'>
+                                <a href="https://maps.app.goo.gl/JSit84QHdhBdKHPE8" target='_blank'>
                                 <img src={location} alt="icono de localización con forma de corazón"/>
                                 <h3>¿Cómo llegar?</h3>
+                                </a>
                             </div>
                         </div>
                         <div className='img-reception'>

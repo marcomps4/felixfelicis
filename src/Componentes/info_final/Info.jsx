@@ -56,7 +56,7 @@ const InfoFinal = () =>{
                             </div>
                             
                         </div>
-                        <div>
+                        <div className='notaFinal'>
                             <p>Estamos muy emocionados de compartir este día contigo. ¡Gracias
                             por tu comprensión y por ser parte de nuestra boda!</p>
                         </div>

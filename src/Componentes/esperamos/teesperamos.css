@@ -115,7 +115,7 @@
 
 }
 
-.ceremony .info_ceremony .icon {
+.ceremony .info_ceremony .icon a {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
@@ -131,6 +131,12 @@
     font-family: 'Southland';
     color: var(--color-primary-variant);
     font-size: 2rem;
+    transition: var(--transition);
+
+}
+
+.ceremony .info_ceremony .icon h3:hover{
+    color: var( --color-white);
 
 }
 
@@ -172,23 +178,33 @@
     font-weight: bold;
 }
 
-.reception .info-reception .icon {
+.reception .info-reception .icon a {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 37%;
+    transition: var(--transition);
 }
+
+
 
 .reception .info-reception .icon img{
     width: 10%;
+    transition: var(--transition);
 }
 
 .reception .info-reception .icon h3{
     font-family: 'Southland';
     color: var(--color-primary-variant);
     font-size: 2rem;
+    transition: var(--transition);
+}
+
+.reception .info-reception .icon h3:hover{
+    color: var( --color-white);
+
 }
 
 .reception .img-reception img{
@@ -204,9 +220,62 @@
         font-size: 6rem;
     }
     .esperamos .separador img{
-        width: 100%;
+        width: 564px;
         
     }
+    .esperamos .container-info{
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .date .info-date{
+        border-radius: 50% 50% 0 0;
+        width: 300px;
+        height: 330px;
+
+    }
+    
+    .date .info-date .font {
+        font-size: 5rem;
+
+    }
+    
+    .date .info-date .font1 {
+        font-size: 4rem;
+
+    }
+    
+    .date .img-date img{
+         width: 300px;
+         height: 330px;
+         border-radius: 0 0 50% 50%;
+    }
+
+    .ceremony .img-ceremony img {
+        width: 300px;
+        height: 330px;
+        border-radius: 50% 50% 0 0;
+    }
+
+    .ceremony .info_ceremony {
+        border-radius: 0 0 50% 50%;
+        width: 300px;
+        height: 330px;
+    }
+
+    .reception .info-reception {
+        border-radius: 50% 50% 0 0;
+        width: 300px;
+        height: 330px;
+    }
+
+    .reception .img-reception img {
+        width: 300px;
+        height: 330px;
+        border-radius: 0 0 50% 50%;
+
+    }
+    
 
 
 
@@ -248,7 +317,7 @@
    }
 
    .date .info-date .font1{
-    left: 15%;
+    left: 21%;
    }
 
    .ceremony{

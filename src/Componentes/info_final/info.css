@@ -111,6 +111,10 @@
    
 }
 
+.notaFinal{
+    margin-top: 20px;
+}
+
 
 
 .formulario{
@@ -196,7 +200,26 @@ input, textarea{
 /*== Media Queries (dispositivos medianos) ==*/
 @media screen and (max-width: 1024px) {
 
+    .more-info {
+        flex-direction: column;
+    }
+    .info-final .estacionamiento img {
+        width: 40%;
+    }
+    .info-final .recepcion img {
+        border-radius: 50% 50% 50% 50%;
+        margin-top: 20px;
+    }
+    .info-final .recepcion {
+        border-bottom: none;
+    }
+    .notaFinal {
+        border-top: 3px solid var(--color-secundary-variant);
+    }
 
+    .notaFinal p{
+        margin-top: 10px;
+    }
 
 
 }

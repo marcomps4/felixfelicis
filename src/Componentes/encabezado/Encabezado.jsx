@@ -9,7 +9,7 @@ const Encabezado = () => {
     return(
 
             <div className='encabezado'>
-                <img src={bg1} alt="fondo1"/>
+                <img src={bg1} alt="fondo1" className='bg'/>
                 <img src={manos} alt="fondo1" className='hands'/>
                 <img src={vector} alt="fondo1" className='vector'/>
                 <div className="container">

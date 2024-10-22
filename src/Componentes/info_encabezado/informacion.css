@@ -1,8 +1,9 @@
 .info{
-    margin-top: 38rem;
+    margin-top: 45rem;
     display: flex;
     gap: 7rem;
     align-items: center;
+    justify-content: space-between;
 }
 
 .info .shape{
@@ -17,6 +18,9 @@
     height: 530px;  
     border-radius: 50% 50% 0 0;
     padding: 20px;
+}
+.info .text{
+    width: 100%;
 }
 
 .info .text1{
@@ -49,9 +53,7 @@
         flex-direction: column;
         margin-top: 8rem;
     }
-    .info .text2{
-        display: none;
-    }
+
 
     .info .shape{
         width: 100%;

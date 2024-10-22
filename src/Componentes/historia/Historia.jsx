@@ -1,6 +1,7 @@
 import '../historia/historia.css';
 import separador from '../../Assets/separador.png';
 import corazon from '../../Assets/historia/corazon.png';
+import corazonmobile from '../../Assets/historia/corazon_mobile.png';
 
 const Historia = () =>{
     return(
@@ -38,6 +39,7 @@ const Historia = () =>{
                         <p>Ahora, estamos emocionados de comenzar nuestra vida juntos como esposos y de celebrar este amor con todos ustedes, que han sido parte importante de nuestra historia.</p>
                         </div>
                     </div>
+                    <img src={corazonmobile} alt="imagen de un corazón" className='corazon-mobile'/>
                 </div>
                 <div className='linea-vertical'></div>
                 </div>
