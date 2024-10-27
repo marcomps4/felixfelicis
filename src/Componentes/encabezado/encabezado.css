@@ -11,22 +11,6 @@
     width: 100%;
 }
 
-.encabezado .hands{
-    width: 100%;
-    top: 114%;
-    margin: 0 auto;
-    z-index: 1;
-}
-
-.encabezado .vector{
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    top: 700px;
-    justify-content: center;
-    object-fit: contain
-}
-
 
 .encabezado .title{
     text-align: center;
@@ -34,7 +18,7 @@
 
 .encabezado .title h1{
     font-family: 'Southland';
-    font-size: 7.5rem;
+    font-size: 5rem;
     padding: 0;
     color: var(--color-primary);
     margin: 0;
@@ -43,7 +27,7 @@
 
 .encabezado .title h2{
     font-family: 'Southland';
-    font-size: 4.5rem;
+    font-size: 5rem;
     color: var(--color-primary);
 }
 
@@ -64,12 +48,14 @@
 /*== Media Queries (dispositivos pequeños) ==*/
 @media screen and (max-width: 600px) {
 
+
     .encabezado .title h1{
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
     
     .encabezado .title h2{
-        font-size: 4.5rem;
+        display: none;
+        font-size: 2.5rem;
         z-index: 2;
     }
 
